@@ -1,21 +1,57 @@
-
-body{
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+    
 }
 
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #DCD6F7;
-    padding: 1px;
+    padding: 10px;
     color: #262B54;
     text-align: center;
-
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1)
 }
 
 section {
-    padding: 60px 20px;
-    margin-top: 60px; /* Slik at innholdet ikke blir skjult bak menyen */
+    /* Slik at innholdet ikke blir skjult bak menyen */
+    padding: 60px 0px;
+    text-align: center;
+    margin: 5rem auto;
+    max-width: 100%;
+    color: #262B54;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
 }
+
+.Røde-kvinnesko{
+    width: 100%;
+
+}
+
+.Marked{
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+article figure{
+    margin: 1rem;
+    border-radius: 10px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+    
+
+
+    
+
